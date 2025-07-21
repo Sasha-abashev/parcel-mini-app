@@ -7,7 +7,8 @@
     "build": "parcel build src/index.html",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": ""
+  "deploy": "gh-pages -d dist"
+  "homepage": "https://github.com/Sasha-abashev/parcel-mini-app"
   "keywords": [],
   "author": "",
   "license": "ISC",
