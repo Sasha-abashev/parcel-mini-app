@@ -1,4 +1,3 @@
-import { sum } from "./utils/math.js";
+import { greet } from "./modules/greet.js";
 
-const result = sum(5, 3);
-document.getElementById("result").textContent = `5 + 3 = ${result}`;
+document.getElementById("title").textContent = greet("Світ");
